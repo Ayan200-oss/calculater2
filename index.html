@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body style="background-color: black;">
+    <h1 style="color: white;" class="text-center">Calculater | Use Me!</h1>
+    <div class="container">
+        <div class="row">
+            <input type="text" id="input-field" class="input-field" placeholder="0" readonly>
+            <br>
+        </div>
+        <div class="row">
+<button style="background-color: rgb(93, 93, 93);" onclick="del()" class="button"><i class="fa-solid fa-arrow-left"></i></button>
+<button style="background-color: rgb(93, 93, 93)" onclick="clr()" class="button">AC</button>
+<button style="background-color: rgb(93, 93, 93)" onclick="percent()" class="button">%</button>
+<button style="background-color: orange;" onclick="display('/')" class="button">/</button>
+</div>
+<div class="row">
+<button onclick="display('7')" class="button">7</button>
+<button onclick="display('8')" class="button">8</button>
+<button onclick="display('9')" class="button">9</button>
+<button style="background-color: orange;" onclick="display('*')" class="button">x</button>
+</div>
+<div class="row">
+<button onclick="display('4')" class="button">4</button>
+<button onclick="display('5')" class="button">5</button>
+<button onclick="display('6')" class="button">6</button>
+<button style="background-color: orange;" onclick="display('-')" class="button">-</button>
+</div>
+<div class="row">
+<button onclick="display('1')" class="button">1</button>
+<button onclick="display('2')" class="button">2</button>
+<button onclick="display('3')" class="button">3</button>
+<button style="background-color: orange;" onclick="display('+')" class="button">+</button>
+</div>
+<div class="row">
+<button onclick="display('+/-')" class="button">+/-</button>
+<button onclick="display('0')" class="button">0</button>
+<button onclick="display('.')" class="button">.</button>
+<button style="background-color: orange;" onclick="equal()" class="button">=</button>
+</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
