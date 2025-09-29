@@ -33,21 +33,3 @@ function percent() {
         string = "";
     }
 }
-//     string=string+num;
-//     document.getElementById("result").value=string;
-// }
-// function equal(){
-//     string=eval(string);
-//     document.getElementById("result").value=string;
-// }
-// function clr(){
-//     string="";
-//     document.getElementById("result").value=string;
-// }
-// function del(){
-//     string=string.slice(0,-1);
-//     document.getElementById("result").value=string;
-// }
-// function num(){
-//     alert("hi");
-// }   
